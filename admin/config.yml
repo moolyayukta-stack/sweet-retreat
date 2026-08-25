@@ -1,0 +1,61 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "content"
+    label: "Sweet Retreat Website"
+    files:
+      - name: "site"
+        label: "Website Content"
+        file: "content.json"
+        fields:
+          - label: "Hero Photo (best cake shot, top of homepage)"
+            name: "heroImage"
+            widget: "image"
+            required: false
+
+          - label: "Baker at Work Photo (Our Story section)"
+            name: "bakerPhoto"
+            widget: "image"
+            required: false
+
+          - label: "Gallery — 10 Sliding Photos"
+            name: "gallery"
+            widget: "list"
+            min: 1
+            max: 10
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image", required: false }
+              - { label: "Caption (optional, shown only if photo is blank)", name: "caption", widget: "string", required: false }
+
+          - label: "Menu"
+            name: "menu"
+            widget: "list"
+            summary: "{{fields.category}}"
+            fields:
+              - { label: "Category Name", name: "category", widget: "string" }
+              - label: "Items in this Category"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.price}}"
+                fields:
+                  - { label: "Icon (emoji, e.g. 🎂)", name: "icon", widget: "string", required: false }
+                  - { label: "Item Name", name: "name", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text", required: false }
+
+          - label: "Customer Reviews"
+            name: "reviews"
+            widget: "list"
+            max: 8
+            summary: "{{fields.who}}"
+            fields:
+              - { label: "Review Text", name: "text", widget: "text" }
+              - { label: "Customer Name", name: "who", widget: "string" }
