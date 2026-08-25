@@ -1,49 +1,139 @@
 {
-  "heroImage": "",
-  "bakerPhoto": "",
+  "heroImage": "/images/uploads/hero.jpeg",
+  "bakerPhoto": "/images/uploads/baker.jpeg",
   "gallery": [
-    { "image": "", "caption": "Photo 1" },
-    { "image": "", "caption": "Photo 2" },
-    { "image": "", "caption": "Photo 3" },
-    { "image": "", "caption": "Photo 4" },
-    { "image": "", "caption": "Photo 5" },
-    { "image": "", "caption": "Photo 6" },
-    { "image": "", "caption": "Photo 7" },
-    { "image": "", "caption": "Photo 8" },
-    { "image": "", "caption": "Photo 9" },
-    { "image": "", "caption": "Photo 10" }
+    {
+      "image": "/images/uploads/sr1.jpeg",
+      "caption": "Photo 1"
+    },
+    {
+      "image": "/images/uploads/sr2.jpeg",
+      "caption": "Photo 2"
+    },
+    {
+      "image": "/images/uploads/sr3.jpeg",
+      "caption": "Photo 3"
+    },
+    {
+      "image": "/images/uploads/sr4.jpeg",
+      "caption": "Photo 4"
+    },
+    {
+      "image": "/images/uploads/sr5.jpeg",
+      "caption": "Photo 5"
+    },
+    {
+      "image": "/images/uploads/sr6.jpeg",
+      "caption": "Photo 6"
+    },
+    {
+      "image": "/images/uploads/sr7.webp",
+      "caption": "Photo 7"
+    },
+    {
+      "image": "/images/uploads/sr8.jpeg",
+      "caption": "Photo 8"
+    },
+    {
+      "image": "/images/uploads/sr9.jpeg",
+      "caption": "Photo 9"
+    },
+    {
+      "image": "/images/uploads/sr10.jpeg",
+      "caption": "Photo 10"
+    }
   ],
   "menu": [
     {
       "category": "Cakes",
       "items": [
-        { "icon": "🎂", "name": "Classic Butter Cream Cake", "price": "From ₹800 / kg", "desc": "Vanilla, chocolate or red velvet base, smooth buttercream finish." },
-        { "icon": "🍫", "name": "Chocolate Truffle Cake", "price": "From ₹950 / kg", "desc": "Rich dark chocolate sponge with ganache and truffle shavings." },
-        { "icon": "🎉", "name": "Custom Theme Cake", "price": "From ₹1,200 / kg", "desc": "Fully custom design for birthdays, weddings & baby showers." },
-        { "icon": "👶", "name": "Baby Shower / Naming Cake", "price": "On request", "desc": "Custom fondant or cream designs to match your theme." }
+        {
+          "icon": "🎂",
+          "name": "Classic Butter Cream Cake",
+          "price": "From ₹800 / kg",
+          "desc": "Vanilla, chocolate or red velvet base, smooth buttercream finish."
+        },
+        {
+          "icon": "🍫",
+          "name": "Chocolate Truffle Cake",
+          "price": "From ₹950 / kg",
+          "desc": "Rich dark chocolate sponge with ganache and truffle shavings."
+        },
+        {
+          "icon": "🎉",
+          "name": "Custom Theme Cake",
+          "price": "From ₹1,200 / kg",
+          "desc": "Fully custom design for birthdays, weddings & baby showers."
+        },
+        {
+          "icon": "👶",
+          "name": "Baby Shower / Naming Cake",
+          "price": "On request",
+          "desc": "Custom fondant or cream designs to match your theme."
+        }
       ]
     },
     {
       "category": "Brownies & Bars",
       "items": [
-        { "icon": "🟫", "name": "Fudge Brownies", "price": "From ₹120 / piece", "desc": "Dense, dark-cocoa brownies made with real butter." },
-        { "icon": "🥜", "name": "Walnut Brownie", "price": "From ₹140 / piece", "desc": "Classic fudge brownie loaded with roasted walnuts." },
-        { "icon": "🍪", "name": "Brookie Bars", "price": "From ₹150 / piece", "desc": "Cookie-brownie hybrid, gooey centre, crisp edge." }
+        {
+          "icon": "🟫",
+          "name": "Fudge Brownies",
+          "price": "From ₹120 / piece",
+          "desc": "Dense, dark-cocoa brownies made with real butter."
+        },
+        {
+          "icon": "🥜",
+          "name": "Walnut Brownie",
+          "price": "From ₹140 / piece",
+          "desc": "Classic fudge brownie loaded with roasted walnuts."
+        },
+        {
+          "icon": "🍪",
+          "name": "Brookie Bars",
+          "price": "From ₹150 / piece",
+          "desc": "Cookie-brownie hybrid, gooey centre, crisp edge."
+        }
       ]
     },
     {
       "category": "Cupcakes & Cookies",
       "items": [
-        { "icon": "🧁", "name": "Signature Cupcakes", "price": "From ₹80 / piece", "desc": "Vanilla, chocolate or red velvet, piped buttercream swirl." },
-        { "icon": "🍪", "name": "Assorted Cookies", "price": "From ₹60 / piece", "desc": "Chocolate chip, double choc or butter cookies, freshly baked." }
+        {
+          "icon": "🧁",
+          "name": "Signature Cupcakes",
+          "price": "From ₹80 / piece",
+          "desc": "Vanilla, chocolate or red velvet, piped buttercream swirl."
+        },
+        {
+          "icon": "🍪",
+          "name": "Assorted Cookies",
+          "price": "From ₹60 / piece",
+          "desc": "Chocolate chip, double choc or butter cookies, freshly baked."
+        }
       ]
     }
   ],
   "reviews": [
-    { "text": "Ordered a custom baby-shower cake and it exceeded every expectation — beautifully decorated, the custom filling was exactly as requested, and every guest loved it.", "who": "Priya" },
-    { "text": "The brownie cake is rich, made with real butter and dark cocoa — the kind of comfort food you can't stop at one bite of.", "who": "Rohit" },
-    { "text": "So easy to work with — quick, polite replies throughout, and the cake made the whole function feel special. Decoration and taste matched exactly what I pictured.", "who": "Ananya" },
-    { "text": "Loved the cake! The design came out exactly how I wanted, and the taste was even better than I expected.", "who": "Sneha" },
-    { "text": "You can tell it's made with real care and good ingredients — happily going back for another slice any day.", "who": "Karan" }
+    {
+      "text": "Ordered a custom baby-shower cake and it exceeded every expectation — beautifully decorated, the custom filling was exactly as requested, and every guest loved it.",
+      "who": "Priya"
+    },
+    {
+      "text": "The brownie cake is rich, made with real butter and dark cocoa — the kind of comfort food you can't stop at one bite of.",
+      "who": "Rohit"
+    },
+    {
+      "text": "So easy to work with — quick, polite replies throughout, and the cake made the whole function feel special. Decoration and taste matched exactly what I pictured.",
+      "who": "Ananya"
+    },
+    {
+      "text": "Loved the cake! The design came out exactly how I wanted, and the taste was even better than I expected.",
+      "who": "Sneha"
+    },
+    {
+      "text": "You can tell it's made with real care and good ingredients — happily going back for another slice any day.",
+      "who": "Karan"
+    }
   ]
 }
